@@ -1,0 +1,15 @@
+function containsDuplicates(a) {
+ for (let i = 0; i < a.length; i++) {
+  for (let j = 0; j < a.length; j++) {
+   if (i !== j) {
+    if (a[i] === a[j]) {
+     return true;
+    }
+   }
+  }
+ }
+ return false;
+}
+
+console.log(containsDuplicates([1, 1, 3]));
+console.log(containsDuplicates([3, 1, 2, 5]));
