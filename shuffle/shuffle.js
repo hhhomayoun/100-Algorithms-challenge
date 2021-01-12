@@ -7,11 +7,7 @@ class Card {
   this.suit = suit;
   this.value = value;
  }
-
 }
-
-
-
 
 for (let i = 0; i < suits.length; i++) {
  for (let j = 0; j < values.length; j++) {
@@ -19,7 +15,6 @@ for (let i = 0; i < suits.length; i++) {
   deck.push(card)
  }
 }
-
 
 function shuffle(min, max) {
  for (let i = 0; i < 1000; i++) {
@@ -31,5 +26,4 @@ function shuffle(min, max) {
 }
 
 shuffle(1, 52)
-
 console.log(deck)
