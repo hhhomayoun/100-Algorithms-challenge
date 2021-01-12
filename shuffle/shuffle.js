@@ -7,7 +7,10 @@ class Card {
   this.suit = suit;
   this.value = value;
  }
+
 }
+
+
 
 
 for (let i = 0; i < suits.length; i++) {
@@ -28,4 +31,5 @@ function shuffle(min, max) {
 }
 
 shuffle(1, 52)
+
 console.log(deck)
